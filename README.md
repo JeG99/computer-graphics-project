@@ -17,7 +17,7 @@ En la escena ve un escritorio con los siguientes elementos:
 7. Un vaso: Un vaso de vidrio con agua.
 
 La escena luce así actualmente:
-![scene screenshot](scene-screenshot.png)
+![scene screenshot](textures.jpeg)
 
 Todos los modelos usados fueron creados por diseñadores 3D externos al proyecto, a continuación se hace referencia a la autoría de cada modelo:
 
