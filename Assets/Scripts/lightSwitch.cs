@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class lightSwitch : MonoBehaviour
-{   
+{
+   [SerializeField] Light light;
     public GameObject target;
     public bool isOn = true;
 
@@ -17,10 +18,10 @@ public class lightSwitch : MonoBehaviour
     void Update()
     {
         if (Input.GetKey(KeyCode.O)) {
-          target.GetComponent<Light>().enabled = false;
+          light.enabled = false;
         }
         if (Input.GetKey(KeyCode.I)) {
-          target.GetComponent<Light>().enabled = true;
+          light.enabled = true;
         }
     }
 }
